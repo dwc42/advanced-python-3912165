@@ -31,6 +31,7 @@ worldcupdata = [
     {"game": "Semifinal", "Attendance": 68294, "France": 2, "Morocco": 0},
     {"game": "Semifinal", "Attendance": 88966, "Argentina": 3, "Croatia": 0},
 ]
+pprint.pp(worldcupdata, indent=3, width=40, underscore_numbers=True)
 
 
 # pprint also works on newer complex structures, like dataclasses!
@@ -49,3 +50,4 @@ worldcupdata2 = [
     wcdata("Semifinal", 68294, "France", "Morocco", "2 -- 0"),
     wcdata("Semifinal", 88966, "Argentina", "Croatia", "3 -- 0"),
 ]
+pprint.pp(worldcupdata2)
