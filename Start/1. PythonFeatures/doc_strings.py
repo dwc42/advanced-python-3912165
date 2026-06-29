@@ -3,6 +3,13 @@
 
 
 def myFunction(arg1, arg2=None):
+    """Print Wrapper
+
+    :param arg1: _description_
+    :type arg1: Any
+    :param arg2: _description_, defaults to None
+    :type arg2: Any, optional
+    """
     print(arg1, arg2)
 
 
